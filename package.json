@@ -5,6 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepare": "npm run build",
+  "keywords": [
+    "mongodb",
+    "backup",
+    "schedule-backup",
+    "auto-backup"
+  ],
   "files": [
     "dist",
     "src"
@@ -16,7 +22,6 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
   "author": "Double-Man",
   "license": "ISC",
   "devDependencies": {

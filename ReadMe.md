@@ -1,5 +1,7 @@
 Welcome to the GitHub repository for NodeFullBackup, the all-encompassing package designed for your data preservation needs. NodeFullBackup offers a seamless solution for taking database and file backups concurrently, ensuring comprehensive protection for your digital assets. Tailored for versatility, it’s perfect for individual developers and organizations alike, safeguarding data across various systems. Explore our documentation to learn how NodeFullBackup can fortify your backup strategy and provide a reliable safety net for your projects.
 
+> Currently, this package supports only MongoDB.
+
 # Installation
 NodeFullBackup is available as an npm package, allowing for easy installation using the command below:
 
