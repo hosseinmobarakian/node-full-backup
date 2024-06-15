@@ -5,10 +5,13 @@ import path from "path";
 import fs from 'fs';
 import archiver from "archiver";
 import corn from 'node-cron';
+import { uploadToGoogleDrive } from './GoogleDrive';
 
 export const TIME_FORMAT = "yyyy-MM-dd_HH-mm";
 export type expireDaysType = '1d' | '2d' | '3d' | '4d' | '5d' | '10d' | '15d' | '20d' | '25d' | '30d' | '40d' | '50d' | '60d';
-
+export const uploader = {
+    googleDrive: uploadToGoogleDrive,
+};
 
 
 interface IFullBackupOptions {
