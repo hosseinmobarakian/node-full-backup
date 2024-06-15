@@ -1,6 +1,6 @@
 {
   "name": "@double-man/node-full-backup",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A comprehensive package to take database backup and file backup at the same time",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
