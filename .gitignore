@@ -1,0 +1,4 @@
+*-google.json
+node_modules/*
+.env
+dist/*
